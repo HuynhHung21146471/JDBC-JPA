@@ -46,9 +46,9 @@
 
 
 			<td><a
-				href="<c:url value='/admin/video/edit?id=${vid.videoId }'/>">Sửa</a>
+				href="<c:url value='/admin/video/edit?videoid=${vid.videoId }'/>">Sửa</a>
 				| <a
-				href="<c:url value='/admin/video/delete?id=${vid.videoId }'/>">Xóa</a></td>
+				href="<c:url value='/admin/video/delete?videoid=${vid.videoId }'/>">Xóa</a></td>
 
 		</tr>
 	</c:forEach>
